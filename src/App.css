@@ -1,0 +1,63 @@
+.box{
+  position: relative;
+}
+
+.textBoxIcons{
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  cursor: pointer;
+  display: flex;
+}
+@media (max-width: 720px) {
+.textBoxIcons {
+  margin-top: 200px;
+}
+}
+
+.editorIcons{
+  margin-right: 10px;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.editorIcons:hover{
+  background-color: rgba(196, 196, 196, 0.473);
+  cursor: pointer;
+}
+
+.tools{
+  position: absolute;
+  top: 65px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.previewTotal{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.total,
+.preview{
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#textBox{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 35px;
+}
+
+#textBox::placeholder{
+  color: rgb(179, 179, 179);
+  font-size: 13px;
+}
+
+.enable{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
